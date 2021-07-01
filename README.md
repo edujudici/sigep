@@ -7,10 +7,10 @@
 docker-compose up -d
 ```
 ```sh
-app running in port 8181 ---> cek in browser
+app running in port 8181 ---> open in browser
 ```
 ```sh
-phpmyadmin running in port 8282 ---> cek in browser
+phpmyadmin running in port 8282 ---> open in browser
 ```
 ```sh
 login with username `ci` and password `ci`
