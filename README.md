@@ -4,7 +4,7 @@
 
 ```sh
 ## runing with docker compose
-docker-compose -f docker-compose.yml up -d
+docker-compose up -d
 ```
 ```sh
 app running in port 8181 ---> cek in browser
