@@ -1,0 +1,37 @@
+DOCUMENTAÇÃO SIGEP WEB EM CODEIGNITER
+
+REQUISITOS:
+PHP == 5.6 
+VERSÃO SUPERIOR DO PHP USAR MIME_MODULE(NÃO OFERECEMOS SUPORTE)
+MYSQL > 5.6
+EXTENSÃO SOAP
+
+VERSÃO CODEIGNITER: 3.1.9
+
+
+1. COPIE OU DESCOMPACTE TODOS OS ARQUIVOS DO .ZIP PARA A PASTA DE SEU SERVIDOR.
+
+2. CRIE UM BANCO DE DADOS MYSQL COM O NOME DE PREFERÊNCIA, E SUBA O SQL DA PASTA BASE sigep.sql
+
+3. ABRA O ARQUIVO */application/config/config.php* altere o valor de variavel $config['base_url'] para a url base do seu sistema
+ex: http://localhost/pastaondevcinstalouosistema/
+ou: http://seusitehospedadoemumprovedor.com.br
+
+4.  ABRA O ARQUIVO */application/config/database.php* e altere as conexões com o banco de dados
+	'hostname' => 'localhost',//endpoint de conecção ao banco de dados 
+	'username' => 'root', 	 //usuario com acesso ao banco
+	'password' => '',	//senha de segurança do banco 
+	'database' => 'sigep', //nome do banco de dados
+
+5. ABRA O ARQUIVO */application/config/common/dp_config.php* e altere as informações de acordo com os comentarios, 
+altere a variavel $host_dev e $host_prod
+
+6. mude a constante ENVIRONMENT para development, testing ou production, de acordo com o andamento do projeto.
+
+
+dados de acesso:
+
+ADMIN
+admin@admin.com
+password
+
